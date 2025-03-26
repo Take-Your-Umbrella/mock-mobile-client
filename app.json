@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "mock-mobile-client",
-    "slug": "mock-mobile-client",
+    "name": "[TYU] mock-mobile-client",
+    "slug": "tyu-mock-mobile-client",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.satanmoo.tyumockmobileclient"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +37,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "e837c7a1-79d2-44e6-9ebe-7758c8a5eaf3"
+      }
+    },
+    "owner": "satanmoo"
   }
 }
