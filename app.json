@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "[TYU] mock-mobile-client",
-    "slug": "tyu-mock-mobile-client",
+    "name": "mock-mobile-client",
+    "slug": "mock-mobile-client",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -43,9 +43,9 @@
         "origin": false
       },
       "eas": {
-        "projectId": "e837c7a1-79d2-44e6-9ebe-7758c8a5eaf3"
+        "projectId": "a2f07a34-c612-44cd-9eca-88c46d523e9e"
       }
     },
-    "owner": "satanmoo"
+    "owner": "take-your-umbrella"
   }
 }
